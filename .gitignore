@@ -1,0 +1,53 @@
+# ===== Database =====
+# Auto-generated on first run, don't commit
+exchange_rates.db
+*.db
+
+# ===== Python Cache =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# ===== Testing =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Virtual Environment =====
+venv/
+env/
+ENV/
+.venv/
+
+# ===== IDE & Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Environment Variables =====
+.env
+.env.local
+.env.*.local
+
+# ===== OS Files =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ===== Logs =====
+*.log
+*.logs
+
+# ===== Misc =====
+.pytest_cache
+.mypy_cache
